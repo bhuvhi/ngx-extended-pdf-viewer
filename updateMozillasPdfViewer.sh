@@ -6,11 +6,10 @@ rm -r build
 FOLDER="assets"
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 if [ "$BRANCH" == "bleeding-edge" ]; then
-  FOLDER="bleeding-edge"
-fi
-if [ $BRANCH == "3.11" ]; then
-  FOLDER="bleeding-edge"
-fi
+  cd ../ngx-extended-pdf-viewer
+  sh ./update-4.1-and-higher.sh
+else
+  rm -rf build
 
 gulp generic
 gulp generic-legacy
