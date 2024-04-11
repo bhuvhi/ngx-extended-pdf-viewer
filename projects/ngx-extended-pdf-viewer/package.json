@@ -4,7 +4,7 @@
   "version": "19.7.2",
   "license": "Apache-2.0",
   "repository": {
-    "url": "https://github.com/stephanrauh/ngx-extended-pdf-viewer"
+    "url": "git+https://github.com/bhuvhi/ngx-extended-pdf-viewer.git"
   },
   "schematics": "./schematics/collection.json",
   "ng-add": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://pdfviewer.net",
   "bugs": {
-    "url": "https://github.com/stephanrauh/ngx-extended-pdf-viewer/issues"
+    "url": "git+https://github.com/bhuvhi/ngx-extended-pdf-viewer/issues"
   },
   "keywords": [
     "PDF",
